@@ -1,6 +1,5 @@
 import { Router } from "express";
 import { textServiceClient } from "./utils.js";
-import parseJson, {JSONError} from "parse-json";
 
 export const promptRouter = Router();
 
